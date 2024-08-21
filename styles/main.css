@@ -1,0 +1,39 @@
+/* main.css */
+
+/* Set background color to rainbow gradient */
+body {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* Add styles for headings */
+h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: #ffcc00;
+}
+
+/* Add styles for links */
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00ff;
+}
+
+/* Add styles for buttons */
+.button {
+  background-color: #0000ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff0000;
+}
